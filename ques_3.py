@@ -15,7 +15,7 @@ class Employees:
             df= pd.read_excel("question2.xlsx")
             #creating dataframe
 
-            database = psycopg2.connect (database = "sql", user="postgres", password="rahul")#, host="localhost", port="5432")
+            database = psycopg2.connect (database = "Assignment", user="postgres", password="Ishu@123#, host="localhost", port="5432")
             #connection established
 
             cursor = database.cursor()
