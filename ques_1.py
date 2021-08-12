@@ -46,6 +46,7 @@ class employees:
             if conn is not None:
                 cursor.close()
                 conn.close()
+                #commit the connection properly.
 
 #main method
 #creating an object of employees class and calling the emp_manager method
