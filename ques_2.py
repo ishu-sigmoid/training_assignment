@@ -16,6 +16,7 @@ class Compensation:
                 database="Assignment",
                 user="postgres",
                 password="Ishu@123")
+            #confidential information like password should not be shared on open source code; rather use environment variables or config file.
             cursor = conn.cursor()
             # connection established
             script = """
