@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import logging
 #importing packages
+#imported some packages which were not used
 
 #class to create a table and upload data of "ques_2.xlsx" to postgres databse
 class Employees:
