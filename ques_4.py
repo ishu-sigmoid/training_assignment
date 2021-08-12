@@ -2,6 +2,7 @@ import logging
 import psycopg2
 from openpyxl.workbook import Workbook
 import pandas as pd
+#imported some packages which were not used
 # importing packages
 
 class employees:
